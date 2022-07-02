@@ -7,7 +7,7 @@ public class FirstLetterPrinter {
     System.out.println("Enter your String: ");
     String input = in.nextLine();
     FirstLetterPrinter obj1 = new FirstLetterPrinter();
-    System.out.println(obj1.firstLetterPrinter(input));
+    System.out.println("Acronym of a given input : "+obj1.firstLetterPrinter(input));
   }
 
   public String firstLetterPrinter(String str){
